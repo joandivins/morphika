@@ -5,6 +5,14 @@ body {
   font-family: 'Raleway';
 }
 
+h1 {
+  position: absolute;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  margin-top: -55px
+}
+
 h2 {
   position: absolute;
   top: 50%;
