@@ -26,6 +26,31 @@
           <a href='http://facebook.com/morphika' target='_blank'><img src='/images/facebook.svg'></a>
         </li>
       </ul>
+      <div id='subscribe'>
+        <form action="http://morphika.us8.list-manage.com/subscribe/post?u=ebe6660b6f05b44699c6714fe&amp;id=b5495de2e5" method="post" id="subscribe-form" name="mc-embedded-subscribe-form" class="invisible" novalidate>
+          <input type="text" value="" placeholder='Name' name="FNAME" class="" id="mce-FNAME">
+          <input type="email" value="" placeholder='Email' name="EMAIL" class="required email" id="mce-EMAIL">
+          <div class="response" id="mce-error-response" style="display:none"></div>
+          <div class="response" id="mce-success-response" style="display:none"></div>
+          <div style="position: absolute; left: -5000px;"><input type="text" name="b_ebe6660b6f05b44699c6714fe_b5495de2e5" tabindex="-1" value=""></div>
+          <button>Get me in!</button>
+        </form>
+
+        <!-- <form id='subscribe-form' class='invisible'> -->
+        <!--   <input id='subscriber-name' placeholder='Name'></input> -->
+        <!--   <input id='subscriber-email' placeholder='Email'></input> -->
+        <!--   <button>Get me in!</button> -->
+        <!-- </form> -->
+        <button id='subscribe-toggler' class='visible'>Subscribe</button>
+      </div>
+      <script type="text/javascript">
+        var toggler = document.getElementById('subscribe-toggler');
+        toggler.addEventListener('click', function() {
+          var form = document.getElementById('subscribe-form');
+          form.setAttribute('class', 'visible');
+          this.setAttribute('class', 'invisible');
+        }, false);
+      </script>
     </div>
   </body>
 </html>
