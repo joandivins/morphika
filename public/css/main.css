@@ -76,7 +76,8 @@ ul#social-media li:last-child {
   width: 48%;
   height: 30px;
   background-color: #f3fdfc;
-  outline-color: white
+  outline-color: white;
+  border: 0;
 }
 
 #subscribe button {
@@ -123,4 +124,37 @@ ul#social-media li.disabled img {
 ul#social-media li.disabled a {
   pointer-events: none;
   cursor: default;
+}
+
+@media all and (max-height: 480px) and (min-height: 240px){
+  h1 {
+    margin-top: -110px;
+  }
+
+  h2 {
+    margin-top: -60px;
+  }
+
+  ul#social-media {
+    margin-top: -32px;
+    padding-top: 10px;
+  }
+
+  #subscribe {
+    margin-top: 30px;
+  }
+
+  #subscribe form input {
+    margin-top: 10px;
+    height: 30px;
+  }
+
+  #subscribe form button {
+    margin-top: 12px
+  }
+
+  button#subscribe-toggler {
+    margin-top: 0;
+    bottom: -30px;
+  }
 }
