@@ -158,3 +158,15 @@ ul#social-media li.disabled a {
     bottom: -30px;
   }
 }
+
+@media all and (max-width: 500px) and (min-width: 321px){
+  #content{
+    border: 10px solid #4ab29c;
+  }
+}
+
+@media all and (max-width: 320px) and (min-width: 0px){
+  #content{
+    border: 0;
+  }
+}
