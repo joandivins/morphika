@@ -48,6 +48,7 @@ ul#social-media li:last-child {
 }
 
 #subscribe {
+  display: none;
   margin: auto;
   margin-top: 50px;
   height: 50px;
@@ -124,6 +125,16 @@ ul#social-media li.disabled img {
 ul#social-media li.disabled a {
   pointer-events: none;
   cursor: default;
+}
+
+#contact {
+  position: absolute;
+  bottom: 10%;
+  left: 0;
+  right: 0;
+  font-family: 'Arial';
+  letter-spacing: 5;
+  text-align: center;
 }
 
 @media all and (max-height: 480px) and (min-height: 240px){
